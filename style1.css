@@ -1,0 +1,99 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+  *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  body{
+    width:100%;
+       
+  }
+  
+  section{
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+  }
+  #h1{
+    color:blue;
+    font-weight:bold;
+    
+  }
+  p{
+    font-size:18px;
+  }
+  
+  .bold{
+    font-size:30px;
+    cursor:pointer;
+    animation: glow 0.5s ease infinite;
+  }
+  @keyframes glow {
+    from{
+        color:grey;
+    }
+    to{
+        color:white;
+        text-shadow:0 0 5px #12cbc4,
+        0 0 25px #12cbc4,
+        0 0 50px #12cbc4,
+        0 0 100px #12cbc4;
+
+    }
+    
+  }
+  li{
+    padding:5px;
+  }
+  .nav-link{
+    font-weight: bold;
+    border:2px solid transparent;
+  }
+  .nav-link:hover{
+    border-bottom:2px solid blue;
+    transition: all 0.2s ease-in-out;
+  }
+  /*------about page-----*/
+  #i2{
+    width:25rem;
+    height:25rem;
+    border-radius:50px;
+  }
+  #i1{
+    width:20rem;
+    height:20rem;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  /*----skills*/
+  .card img{
+    height:200px;
+    transition:1s;
+
+  }
+  .inner{
+    overflow:hidden;
+  }
+  .card img:hover{
+    transform: scale(1.5);
+    transition:1s;
+  }
+  /*----cantact----*/
+  form{
+    padding:40px;
+    box-shadow:2px 2px 5px rgba(0,0,0,.2),
+                -1px -1px 5px rgba(0,0,0,0.5);
+                border-radius: 30px;
+
+  }
+  #f1:hover{
+    background:orange;
+    color:white;
+  }
+  #f2:hover{
+    background:orange;
+    color:white;
+  }
